@@ -12,6 +12,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { AppRoutingModule } from '../app-routing.module';
 import { FormsModule  } from "@angular/forms";
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FormsModule  } from "@angular/forms";
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
